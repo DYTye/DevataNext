@@ -1,20 +1,32 @@
+"use client"
+import { useState } from "react";
+
+const EEVE = [
+    { id: 1, name: "evee1-100", price: 100 },
+    { id: 2, name: "evee101-200", price: 200 },
+    { id: 3, name: "evee201-300", price: 300 },
+];
+
+const CYCLES = [
+    { id: 1, name: "cycles1-50", price: 500 },
+    { id: 2, name: "cycles51-150", price: 800 },
+    { id: 3, name: "cycles151-300", price: 1200 },
+];
+
+const resolusi = [
+    {id : 1, name: "fullhd", price: 2},
+    {id : 2, name: "2k", price: 3},
+    {id : 3, name: "4k", price: 4},
+]
+
 export default function RenderPal() {
+    const [engineSelected, setEngine] = useState("EEVE");
+    const [frameSelected,setFrame] = useState(0);
+    const [resolusiSelected, setResolusi] = useState("fullhd");
 
-    let EEVE = [
-        {id:1, name:"evee1-100", price:100},
-        {id:2, name:"evee101-200", price:200},
-        {id:3, name:"evee201-300", price:300},
-    ]
-
-    let CYCLES = [
-        {id:1,name:"cycles1-50",price:500},
-        {id:2,name:"cycles51-150",price:800},
-        {id:3,name:"cycles151-300",price:1200},
-    ]
-
-    let jmlFrame = 0;
-
-    let totHarga = (EEVE[0].price || CYCLES[0].price) * jmlFrame;
+    const engineData = engineSelected === "EEVE" ? EEVE : CYCLES;
+    const hargaPerFrame = engineData[0].price;
+    const total = (hargaPerFrame * frameSelected) * resolusi[0].price;
 
     return (
 
