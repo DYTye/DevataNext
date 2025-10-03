@@ -20,13 +20,16 @@ const resolusi = [
 ]
 
 export default function RenderPal() {
-    const [engineSelected, setEngine] = useState("EEVE");
-    const [frameSelected,setFrame] = useState(0);
-    const [resolusiSelected, setResolusi] = useState("fullhd");
+  const [engineSelected, setEngine] = useState("EEVE"); // milih engine
+  const engineData = engineSelected === "EEVE" ? EEVE : CYCLES;
+  const [sampelSelected, setSampel] = useState(0); // index sampel
+  const [resolusiSelected, setResolusi] = useState(0); // index resolusi
+  const [frameSelected, setFrame] = useState(0);
+  
 
-    const engineData = engineSelected === "EEVE" ? EEVE : CYCLES;
-    const hargaPerFrame = engineData[0].price;
-    const total = (hargaPerFrame * frameSelected) * resolusi[0].price;
+    
+    const harga = engineData[sampelSelected].price * frameSelected * resolusi[resolusiSelected].price;
+
 
     return (
 
