@@ -7,21 +7,39 @@ const engineData = [
 ]
 
 const EEVE = [
-    { id: 1, name: "1-100 ", price: 100 },
-    { id: 2, name: "101-200 ", price: 200 },
-    { id: 3, name: "201-300", price: 300 },
+    { id: 1, name: "1-32", price: 32 },
+    { id: 2, name: "33-64", price: 64 },
+    { id: 3, name: "65-100", price: 100 },
+    { id: 4, name: "101-200", price: 120 },
+    { id: 5, name: "201-300", price: 160 },
+    { id: 6, name: "301-400", price: 200 },
+    { id: 7, name: "401-500", price: 240 },
+    { id: 8, name: "501-1000", price: 400 },
+    { id: 9, name: "1001-2000", price: 800 },
+    { id: 10, name: "2001-3000", price: 1200 },
 ];
 
 const CYCLES = [
-    { id: 1, name: "1-50 ", price: 500 },
-    { id: 2, name: "51-150 ", price: 800 },
-    { id: 3, name: "151-300 ", price: 1200 },
+    { id: 1, name: "1-32", price: 80 },
+    { id: 2, name: "33-64", price: 160 },
+    { id: 3, name: "65-100", price: 250 },
+    { id: 4, name: "101-200", price: 400 },
+    { id: 5, name: "201-300", price: 550 },
+    { id: 6, name: "301-400", price: 700 },
+    { id: 7, name: "401-500", price: 850 },
+    { id: 8, name: "501-1000", price: 1500 },
+    { id: 9, name: "1001-2000", price: 2000 },
+    { id: 10, name: "2001-3000", price: 2500 },
 ];
 
 const resolusi = [
-    { id: 1, name: "Full HD", price: 2 },
-    { id: 2, name: "2k", price: 3 },
-    { id: 3, name: "4k", price: 4 },
+    { id: 1, name: "144p", price: 2 },
+    { id: 2, name: "240p", price: 3 },
+    { id: 3, name: "480p", price: 4 },
+    { id: 4, name: "720p", price: 2 },
+    { id: 5, name: "1080p", price: 3 },
+    { id: 6, name: "1440p", price: 4 },
+    { id: 7, name: "2160P", price: 4 },
 ]
 
 export default function RenderPal() {

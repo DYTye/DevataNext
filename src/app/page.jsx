@@ -21,7 +21,7 @@ export default function Home() {
               {/* CTA */}
               <div className="my-6 grid grid-cols-2 gap-6">
                 <div>
-                  <a
+                  <Link
                     href="#"
                     className="relative py-4 flex w-full items-center justify-center overflow-hidden rounded-md"
                   >
@@ -29,7 +29,7 @@ export default function Home() {
                     <span className="relative text-lg font-semibold text-white">
                       Cari Asset
                     </span>
-                  </a>
+                  </Link>
                   <div className="font-semibold text-3xl ms-2">
                     <h3 className="pt-6">240K+</h3>
                     <h3>Total Asset</h3>
