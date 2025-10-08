@@ -58,9 +58,11 @@ export async function POST(req) {
         // Hitung harga di backend
         const sampleArray = body.engine === "EEVE" ? EEVE : CYCLES;
         const harga =
-            (sampleArray.find((s) => s.name === body.sample) ? .price || 0) *
-            (Number(body.frame) || 1) *
-            (resolusi.find((r) => r.name === body.resolusi) ? .price || 1);
+        (sampleArray.find((s) => s.name === body.sample)?.price || 0) *
+        (Number(body.frame) || 1) *
+        (resolusi.find((r) => r.name === body.resolusi)?.price || 1);
+
+
 
         const wooUrl = `${process.env.WC_URL}/wp-json/wc/v3/orders`;
         const key = process.env.WC_CONSUMER_KEY;
@@ -70,7 +72,7 @@ export async function POST(req) {
         const agent = new https.Agent({
             rejectUnauthorized: false
         }); // self-signed
-        
+
         console.log("WC_URL:", process.env.WC_URL);
         console.log("WC_KEY:", !!process.env.WC_CONSUMER_KEY);
         console.log("WC_SECRET:", !!process.env.WC_CONSUMER_SECRET);
