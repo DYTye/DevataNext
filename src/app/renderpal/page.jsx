@@ -71,7 +71,7 @@ export default function RenderPal() {
 
             if (result.id && result.order_key) {
 
-                const paymentUrl = `https://next.js.test/checkout/order-pay/${result.id}/?pay_for_order=true&key=${result.order_key}`;
+                const paymentUrl = `https://pasar3d.com/checkout/order-pay/${result.id}/?pay_for_order=true&key=${result.order_key}`;
                 console.log("Redirect ke:", paymentUrl);
 
 

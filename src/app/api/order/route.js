@@ -93,7 +93,7 @@ export async function POST(req) {
                     email: body.email || "user@renderpal.local",
                 },
                 line_items: [{
-                    product_id: 65, // id dari product generic
+                    product_id: 3013, // id dari product generic
                     quantity: Number(body.frame) || 1,
                     name: `${body.engine} - ${body.sample} (${body.resolusi})`,
                     total: harga.toString(),
