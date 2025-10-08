@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
     return (
@@ -7,17 +8,17 @@ export default function Header() {
             <div className="max-w-full px-5 py-3 lg:px-10 flex items-center justify-between">
 
 
-                <a href="">
+                <Link href="/">
                     <Image src="/logo.png" width={90} height={100} alt="Brand Logo" />
-                </a>
+                </Link>
 
 
                 <div id="navbarNavAltMarkup" className="hidden lg:flex lg:w-full lg:justify-center">
                     <div className="flex flex-col lg:flex-row lg:space-x-2 text-sm font-small">
-                        <a className="px-3 py-2 rounded hover:bg-gray-700 transition" href="#">Assets</a>
-                        <a className="px-3 py-2 rounded hover:bg-gray-700 transition" href="renderpal">RenderPal</a>
-                        <a className="px-3 py-2 rounded hover:bg-gray-700 transition" href="#">Tentang Kami</a>
-                        <a className="px-3 py-2 rounded hover:bg-gray-700 transition" href="#">Hubungi Kami</a>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="assets">Assets</Link>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="renderpal">RenderPal</Link>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="tentangkami">Tentang Kami</Link>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="hubungikami">Hubungi Kami</Link>
 
 
                         <button className="block lg:hidden mt-2 border border-white text-white py-1 px-3 rounded hover:bg-white hover:text-black transition">

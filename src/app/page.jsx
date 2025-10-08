@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -36,8 +37,8 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <a
-                    href="#"
+                  <Link
+                    href="renderpal"
                     className="relative block w-full py-4 items-center flex justify-center"
                   >
                     <div className="absolute inset-0 rounded-md bg-gradient-to-r from-[#8000FF] to-[#FF007F]" />
@@ -45,7 +46,7 @@ export default function Home() {
                     <span className="relative text-lg font-semibold">
                       Mulai Render
                     </span>
-                  </a>
+                  </Link>
                   <div className="font-semibold text-3xl ms-2">
                     <h3 className="pt-6">120K+</h3>
                     <h3>Kreator</h3>
