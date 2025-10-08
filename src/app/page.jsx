@@ -304,8 +304,8 @@ export default function Home() {
           className="relative h-[650px] w-full bg-cover bg-center text-white"
           style={{ backgroundImage: "url('https://placehold.co/1200x600/png')" }}
         >
-          <div className="bg-opacity-70 absolute inset-0 bg-gradient-to-t from-[#BC13FE]/50 to-black">
-            <div className="absolute bottom-10 w-full grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
+          <div className="bg-opacity-70 absolute flex justify-center inset-0 bg-gradient-to-t from-[#BC13FE]/50 to-black">
+            <div className="absolute bottom-20 sm:ps-0 md:ps-40 lg:md:ps-40 w-full grid grid-cols-1 md:grid-cols-2 gap-6 px-6">
               <div className="text-5xl font-bold">
                 <div className="my-9 inline-flex items-center rounded-4xl bg-[#212121] px-4 py-2 text-xl">
                   <Image
