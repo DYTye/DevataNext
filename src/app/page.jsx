@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Home() {
   return (
     <>
-      <div className="bg-[#212121]">
+      <div className="bg-[#212121] ">
         <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-white ">
           {/* Hero Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
@@ -347,7 +347,7 @@ export default function Home() {
         </div>
 
         {/* How It Works */}
-        <main className="max-w-6xl mx-auto my-12 px-4 sm:px-6 lg:px-8 text-white">
+        <main className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <div className="mt-20 mb-12">
             <h3 className="font-bold text-3xl mb-4">Bagaimana Cara Kerjanya</h3>
             <p className="font-light text-xl">Cari Tahu Cara Memulainya</p>
