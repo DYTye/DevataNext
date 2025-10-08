@@ -15,10 +15,10 @@ export default function Header() {
 
                 <div id="navbarNavAltMarkup" className="hidden lg:flex lg:w-full lg:justify-center">
                     <div className="flex flex-col lg:flex-row lg:space-x-2 text-sm font-small">
-                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="assets">Assets</Link>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="/">Assets</Link>
                         <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="renderpal">RenderPal</Link>
                         <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="tentangkami">Tentang Kami</Link>
-                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="hubungikami">Hubungi Kami</Link>
+                        <Link className="px-3 py-2 rounded hover:bg-gray-700 transition" href="">Hubungi Kami</Link>
 
 
                         <button className="block lg:hidden mt-2 border border-white text-white py-1 px-3 rounded hover:bg-white hover:text-black transition">
