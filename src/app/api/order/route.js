@@ -27,9 +27,9 @@ const CYCLES = [
 ];
 
 const resolusi = [
-    { id: 1, name: "720p", price: 0.5 },
-    { id: 2, name: "1080p", price: 1 },
-    { id: 3, name: "1440p", price: 2 },
+    { id: 1, name: "720p", price: 2 },
+    { id: 2, name: "1080p", price: 3 },
+    { id: 3, name: "1440p", price: 4 },
     { id: 4, name: "2160P", price: 4 },
 ];
 

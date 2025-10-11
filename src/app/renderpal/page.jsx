@@ -33,13 +33,10 @@ const CYCLES = [
 ];
 
 const resolusi = [
-    { id: 1, name: "144p", price: 2 },
-    { id: 2, name: "240p", price: 3 },
-    { id: 3, name: "480p", price: 4 },
-    { id: 4, name: "720p", price: 2 },
-    { id: 5, name: "1080p", price: 3 },
-    { id: 6, name: "1440p", price: 4 },
-    { id: 7, name: "2160P", price: 4 },
+    { id: 1, name: "720p", price: 0.5 },
+    { id: 2, name: "1080p", price: 1 },
+    { id: 3, name: "1440p", price: 2 },
+    { id: 4, name: "2160P", price: 4 },
 ]
 
 export default function RenderPal() {
