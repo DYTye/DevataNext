@@ -166,7 +166,7 @@ export default function RenderPal() {
 
 
                 </div>
-                {frameSelected >= 1 && resolusiSelected !== "" && (
+                {frameSelected >= 1 && resolusiSelected !== "" && engineSelected !=="" && sampelSelected !=="" && (
                     <div className="bg-[#212121] text-white flex  justify-center">
                         <div className=" bg-[#2E2E2E] p-10 w-200 rounded-4xl">
 
