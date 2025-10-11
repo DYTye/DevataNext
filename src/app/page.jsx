@@ -1,5 +1,9 @@
+'use client'
 import Image from "next/image";
 import Link from "next/link";
+import ModelViewer from '../../components/ModelViewer'
+
+
 
 
 export default function Home() {
@@ -56,12 +60,12 @@ export default function Home() {
               </div>
             </div>
 
+        
             {/* Card Preview */}
-            <div className="w-full mx-auto bg-black rounded-2xl shadow-lg overflow-hidden my-10">
+            <div className="">
               <div>
-                <Image
-                  src="/home.png"
-                  alt="Preview"
+                <ModelViewer
+                  key="3dcar"
                   width={600}
                   height={400}
                   className="w-full h-120 object-cover rounded-t-2xl"
@@ -400,6 +404,8 @@ export default function Home() {
 
           
         </main>
+              <h1 className="text-3xl font-bold mb-6">3D Viewer </h1>
+      
       </div>
     </>
   );
