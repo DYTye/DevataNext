@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import ModelViewer from '../../components/ModelViewer'
+import HeroSection from "../../components/HeroSection";
 
 
 
@@ -65,6 +66,7 @@ export default function Home() {
             <div className="">
               <div>
                 <ModelViewer
+                  glbsrc="https://txwatpcjenskrdnispuu.supabase.co/storage/v1/object/public/pasar3d/Camping%20Asset%20Collection.glb"
                   key="3dcar"
                   width={600}
                   height={400}
@@ -86,6 +88,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+
 
           {/* Asset */}
           <div className="mt-20 mb-12">
@@ -241,65 +244,17 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-6 gap-y-0 mb-12">
-            <div className="w-full mx-auto bg-black rounded-2xl shadow-lg overflow-hidden my-2">
-              <div>
-                <Image
-                  src="/home.png"
-                  alt="Preview"
-                  width={600}
-                  height={400}
-                  className="w-full h-120 object-cover rounded-t-2xl"
-                />
-              </div>
+          <HeroSection
+          imgsrc="https://placehold.co/900x900/png"
+          />
 
-              <div className="py-3  bg-[#2E2E2E] px-6 w-full rounded-b-lg">
-                <h1 className="text-3xl font-bold mb-3">Steampunk Girl</h1>
-                <div className="flex justify-start">
-                  <Image src="https://placehold.co/30x30/png" height={30} width={30} alt="" className="mr-3 rounded-full" />
-                  <p>Aditya Arrofi</p>
-                </div>
-              </div>
-            </div>
+          <HeroSection
+          imgsrc="https://placehold.co/900x900/png"
+          />
 
-            <div className="w-full mx-auto bg-black rounded-2xl shadow-lg overflow-hidden my-2">
-              <div>
-                <Image
-                  src="/home.png"
-                  alt="Preview"
-                  width={600}
-                  height={400}
-                  className="w-full h-120 object-cover rounded-t-2xl"
-                />
-              </div>
-
-              <div className="py-3  bg-[#2E2E2E] px-6 w-full rounded-b-lg">
-                <h1 className="text-3xl font-bold mb-3">Steampunk Girl</h1>
-                <div className="flex justify-start">
-                  <Image src="https://placehold.co/30x30/png" height={30} width={30} alt="" className="mr-3 rounded-full" />
-                  <p>Aditya Arrofi</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="w-full mx-auto bg-black rounded-2xl shadow-lg overflow-hidden my-2">
-              <div>
-                <Image
-                  src="/home.png"
-                  alt="Preview"
-                  width={600}
-                  height={400}
-                  className="w-full h-120 object-cover rounded-t-2xl"
-                />
-              </div>
-
-              <div className="py-3  bg-[#2E2E2E] px-6 w-full rounded-b-lg">
-                <h1 className="text-3xl font-bold mb-3">Steampunk Girl</h1>
-                <div className="flex justify-start">
-                  <Image src="https://placehold.co/30x30/png" height={30} width={30} alt="" className="mr-3 rounded-full" />
-                  <p>Aditya Arrofi</p>
-                </div>
-              </div>
-            </div>
+          <HeroSection
+          imgsrc="https://placehold.co/900x900/png"
+          />
           </div>
 
         </main>
@@ -404,7 +359,6 @@ export default function Home() {
 
           
         </main>
-              <h1 className="text-3xl font-bold mb-6">3D Viewer </h1>
       
       </div>
     </>
