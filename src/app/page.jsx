@@ -1,8 +1,8 @@
 'use client'
 import Image from "next/image";
 import Link from "next/link";
-import ModelViewer from '../../components/ModelViewer'
-import HeroSection from "../../components/HeroSection";
+import ModelViewer from '../../components/modelviewer'
+import HeroSection from "../../components/herosection";
 
 
 
