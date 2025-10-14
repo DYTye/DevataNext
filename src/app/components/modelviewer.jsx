@@ -19,7 +19,7 @@ function Model({ glbsrc }) {
   // Animasi rotasi
   useFrame((state, delta) => {
     if (ref.current) {
-      ref.current.rotation.y += delta * 0.5 // putar pelan
+      ref.current.rotation.y += delta * 0.1 // putar pelan
     }
   })
 

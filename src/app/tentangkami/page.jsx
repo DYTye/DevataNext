@@ -29,20 +29,20 @@ export default function TentangKami() {
                     <div className="bg-[#8000FF] rounded-4xl">
                         <div className=" p-10">
                             <h1 className="text-7xl font-mono">Latar Belakang Pasar3D.com</h1>
-                            <p className="text-md">Industri kreatif, khususnya di bidang 3D, terus berkembang pesat seiring meningkatnya permintaan akan aset digital dalam berbagai sektor seperti animasi, game, arsitektur, dan desain produk. Namun, kreator sering menghadapi tantangan seperti keterbatasan akses ke aset berkualitas, waktu rendering yang lama, serta biaya tinggi untuk menyelesaikan proyek.</p>
+                            <p className="text-lg mt-5 ps-10">Industri kreatif, khususnya di bidang 3D, terus berkembang pesat seiring meningkatnya permintaan akan aset digital dalam berbagai sektor seperti animasi, game, arsitektur, dan desain produk. Namun, kreator sering menghadapi tantangan seperti keterbatasan akses ke aset berkualitas, waktu rendering yang lama, serta biaya tinggi untuk menyelesaikan proyek.</p>
                         </div>
                     </div>
                     <div className="">
                         <div className="bg-[#8000FF] rounded-4xl mb-5">
                             <div className="p-10">
-                                <h1 className="font-mono text-7xl">Visi</h1>
+                                <h1 className="font-mono text-7xl mb-5">Visi</h1>
                                 <p className="text-md">Menjadi platform utama yang memberdayakan kreator 3D Indonesia untuk bersaing di tingkat global, dengan menyediakan solusi terintegrasi yang mendukung produktivitas, kreativitas, dan kolaborasi</p>
                             </div>
                         </div>
                         <div className="bg-amber-50 rounded-4xl text-black">
                             <div className="p-10">
-                                <h1 className="font-mono text-7xl">Misi</h1>
-                                <div className="text-md">
+                                <h1 className="font-mono text-7xl mb-5">Misi</h1>
+                                <div className="text-md gap-4">
                                     <p>1.Membuka akses terhadap aset 3D berkualitas tinggi yang dapat digunakan dalam berbagai proyek kreatif.</p>
                                     <p>2. Menyediakan layanan render farm yang transparan, cepat, dan terjangkau untuk mendukung efisiensi produksi.</p>
                                     <p>3. Membangun komunitas kreator 3D yang kuat, inovatif, dan saling mendukung untuk mencapai potensi terbaik mereka</p>
