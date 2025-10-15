@@ -29,7 +29,7 @@ function Model({ glbsrc }) {
 export default function ModelViewer({ className, glbsrc }) {
   return (
     <div className={`w-full h-[500px] bg-transparent ${className || ''}`}>
-      <Canvas camera={{ position: [7, 2, 7], fov: 60 }}>
+      <Canvas camera={{ position: [0, 1, 3], fov: 60 }}>
         <ambientLight intensity={0.8} />
         <directionalLight position={[10, 10, 5]} intensity={1.5} />
         <Model glbsrc={glbsrc} />

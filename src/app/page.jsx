@@ -61,32 +61,15 @@ export default function Home() {
               </div>
             </div>
 
-        
+
             {/* Card Preview */}
-            <div className="">
-              <div>
-                <ModelViewer
-                  glbsrc="https://txwatpcjenskrdnispuu.supabase.co/storage/v1/object/public/pasar3d/Camping%20Asset%20Collection.glb"
-                  key="3dcar"
-                  width={600}
-                  height={400}
-                  className="w-full h-120 object-cover rounded-t-2xl"
-                />
-              </div>
-              <div className="py-3 bg-[#2E2E2E] px-6 w-full rounded-b-lg">
-                <h1 className="text-3xl font-bold mb-3">Steampunk Girl</h1>
-                <div className="flex justify-start">
-                  <Image
-                    src="https://placehold.co/30x30/png"
-                    alt="avatar"
-                    width={30}
-                    height={30}
-                    className="mr-3 rounded-full"
-                  />
-                  <p>Aditya Arrofi</p>
-                </div>
-              </div>
-            </div>
+
+            <HeroSection
+              is3D={true}
+              glbsrc="https://txwatpcjenskrdnispuu.supabase.co/storage/v1/object/public/pasar3d/base_basic_pbr.glb"
+            />
+
+
           </div>
 
 
@@ -244,17 +227,17 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-x-6 gap-y-0 mb-12">
-          <HeroSection
-          imgsrc="https://placehold.co/900x900/png"
-          />
+            <HeroSection
+              imgsrc="https://placehold.co/900x900/png"
+            />
 
-          <HeroSection
-          imgsrc="https://placehold.co/900x900/png"
-          />
+            <HeroSection
+              imgsrc="https://placehold.co/900x900/png"
+            />
 
-          <HeroSection
-          imgsrc="https://placehold.co/900x900/png"
-          />
+            <HeroSection
+              imgsrc="https://placehold.co/900x900/png"
+            />
           </div>
 
         </main>
@@ -357,9 +340,9 @@ export default function Home() {
             </div>
           </div>
 
-          
+
         </main>
-      
+
       </div>
     </>
   );
