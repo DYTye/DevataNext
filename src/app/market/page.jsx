@@ -22,7 +22,6 @@ export default function Market() {
                     <div className="pt-10 mb-5">
                         <h1 className="text-4xl font-bold py-5">Telusuri Marketplace</h1>
                         <p>Jelajahi lebih dari 50 ribu aset di Marketplace</p>
-                        <p>mantap</p>
                     </div>
 
                     <div className="border rounded-3xl opacity-20">
