@@ -28,7 +28,7 @@ export default function Home() {
               <div className="my-6 grid grid-cols-2 gap-6">
                 <div>
                   <Link
-                    href="#"
+                    href="market"
                     className="relative py-4 flex w-full items-center justify-center overflow-hidden rounded-md"
                   >
                     <div className="absolute inset-0 bg-gradient-to-r from-[#8000FF] to-[#FF007F] transition-opacity duration-300 hover:opacity-10"></div>

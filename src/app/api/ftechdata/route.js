@@ -16,6 +16,7 @@ export async function GET() {
     const response = await fetch(`${WooUrl}&consumer_key=${key}&consumer_secret=${secret}&per_page=50`);
     const body = await response.json()
     const product = body.map(p => ({
+        id : p.id,
         name: p.name,
         price: p.price,
         image: p.images[0] ?.src || '',
