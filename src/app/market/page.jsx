@@ -22,7 +22,7 @@ export default function Market() {
             <h1 className="text-4xl font-bold py-5">Telusuri Marketplace</h1>
             <p>Jelajahi lebih dari 50 ribu aset di Marketplace</p>
           </div>
-{/* 
+
           <div className="border rounded-3xl opacity-20">
             <div className="py-3 flex">
               <input
@@ -31,15 +31,15 @@ export default function Market() {
                 className="ps-5"
               />
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
 
       <div className="bg-[#2A2A2A] w-full">
-        {/* <div className="flex justify-center">
+        <div className="flex justify-center">
           <div className="py-5 pr-40 font-bold">Kreator</div>
           <div className="py-5 pl-40 font-bold">Aset</div>
-        </div> */}
+        </div>
       </div>
 
       <div className="bg-[#212121] pb-10">
@@ -83,3 +83,5 @@ export default function Market() {
     </>
   );
 }
+
+
