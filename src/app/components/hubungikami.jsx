@@ -17,7 +17,7 @@ export default function HubungiKami() {
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
                                 <div className="felx flex-col">
                                     <div className="mb-10">
-                                        <h1 className="my-5 font-mono font-bold">CONTACT US</h1>
+                                        <h1 className="my-5 font-mono font-bold focus:o">CONTACT US</h1>
                                         <p>+62 821-5111-2141</p>
                                     </div>
                                     <div>
@@ -61,19 +61,19 @@ export default function HubungiKami() {
                                 <p className="font-extralight">Jangkau kami untuk pertanyaan tentang tiket, kemitraan, atau detail acara.</p>
 
                                 <div className="my-7">
-                                    <input type="text" className="" placeholder="Nama" />
+                                    <input type="text" className="focus:outline-0" placeholder="Nama" />
                                     <hr />
                                 </div>
                                 <div className="my-7">
-                                    <input type="text" className="" placeholder="Email" />
+                                    <input type="text" className="focus:outline-0" placeholder="Email" />
                                     <hr />
                                 </div>
                                 <div className="my-7">
-                                    <input type="text" className="" placeholder="Subjek" />
+                                    <input type="text" className="focus:outline-0" placeholder="Subjek" />
                                     <hr />
                                 </div>
                                 <div className="my-7 mt-10">
-                                    <input type="text" className="" placeholder="Pesan" />
+                                    <input type="text" className="focus:outline-0" placeholder="Pesan" />
                                     <hr />
                                 </div>
 
